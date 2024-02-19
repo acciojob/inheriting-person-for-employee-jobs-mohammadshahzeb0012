@@ -25,9 +25,11 @@ class Employee extends Person{
    
     }
 }
+const alice = new Person("Alice", 25);
+alice.greet(); 
 
-let emp = new Employee("Bob",30,"Manager")
-console.log(emp.jobGreet())
+const bob = new Employee("Bob", 30, "Manager");
+bob.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;
